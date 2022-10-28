@@ -37,12 +37,9 @@ const posts = [
     }
 ]
 
-console.log(posts[0].name)
-
 let postArea = document.getElementById("post-area")
 
 for (let i = 0; i<posts.length; i++) {
-    console.log(posts[i].name)
     postArea.innerHTML += 
     `
     <div class="post">
